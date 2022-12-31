@@ -21,14 +21,12 @@ services:
   strapi-db:
     image: postgres:latest
     restart: unless-stopped
-    env_file:
-      - .env
+    environment:
+      POSTGRES_DB: strapi-db
+      POSTGRES_USER: strapi-user
+      POSTGRES_PASSWORD: strapi-pass
     volumes:
       - strapi-postgres-data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_DB: ${DATABASE_NAME}
-      POSTGRES_USER: ${DATABASE_USERNAME}
-      POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
     # Add "forwardPorts": ["5432"] to **devcontainer.json** to forward PostgreSQL locally.
     # (Adding the "ports" property to this file will not forward from a Codespace.)
 
