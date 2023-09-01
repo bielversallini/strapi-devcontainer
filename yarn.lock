@@ -1410,6 +1410,16 @@
     redux "^4.2.1"
     yup "0.32.9"
 
+"@strapi/plugin-sentry@^4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-sentry/-/plugin-sentry-4.13.1.tgz#2ffda17b1733576e5f2d5cc9bb6a26a763e3b6c4"
+  integrity sha512-oVYdhFFcU3oWvYbgDXpEZVBsvqdGCnR78lxQCihhxMw+jqQAVi34NlcNZEupAeAS+FFAh8h7f5tlFJXrpVnLKg==
+  dependencies:
+    "@sentry/node" "6.19.7"
+    "@strapi/design-system" "1.9.0"
+    "@strapi/helper-plugin" "4.13.1"
+    "@strapi/icons" "1.9.0"
+
 "@strapi/plugin-upload@4.13.1":
   version "4.13.1"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-upload/-/plugin-upload-4.13.1.tgz#3637f007e15055fc7de8258efa6b29bae5c2fc68"
