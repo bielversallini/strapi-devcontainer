@@ -1,7 +1,7 @@
 {
   "name": "myproject",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -11,11 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/strapi": "4.5.5",
-    "better-sqlite3": "7.4.6",
-    "pg": "^8.8.0"
+    "@strapi/strapi": "4.13.1",
+    "@strapi/plugin-users-permissions": "4.13.1",
+    "@strapi/plugin-i18n": "4.13.1",
+    "better-sqlite3": "8.5.2",
+    "pg": "^8.11.3"
   },
   "author": {
     "name": "A Strapi developer"
@@ -24,7 +24,7 @@
     "uuid": "d41d810a-f303-4912-b41b-654808e8ab93"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=18.0.0 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
